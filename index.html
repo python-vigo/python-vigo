@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introducción a tests automáticos en pyhton - Python Vigo 21/05/2015</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif';}
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      /* Two-column layout */
+      .left-column {
+      float: left;
+      }
+      .right-column {
+      float: right;
+      padding-right: 10em;
+      }
+
+      .footnote {
+      position: absolute;
+      bottom: 3em;
+      font-size: 60%
+      }
+    </style>
+  </head>
+  <body>
+    <script src=".lib/remark-latest.min.js"></script>
+    <!-- <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script> -->
+    <script>
+      var slideshow = remark.create({
+      sourceUrl: 'python-vigo.testautomaticos.md',
+      ratio: '4:3', // '4:3', '16:9'
+      navigation: {
+      scroll: false, // true, false
+      touch: false, // true, false
+      click: true, // true, false
+      },
+      slideNumberFormat: '%current% / %total%',
+      //slideNumberFormat: function (current, total) {
+      //return 'Slide ' + current + ' of ' + total;
+      //}
+      // built-in highlight options. More available downloading highlight.js
+      highlightLanguage: 'no-highlight', // 'no-highlight', 'javascript', 'python', 'bash', ...
+      highlightStyle: 'monokai', // arta, ascetic, dark, default, far, github, googlecode, idea, ir_black, magula, monokai, rainbow, solarized_dark, solarized_light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eighties, vs, zenburn
+      });
+    </script>
+  </body>
+</html>
